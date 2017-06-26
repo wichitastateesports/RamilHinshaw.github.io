@@ -10,7 +10,7 @@ html{
 
 header{
 	/*background-color: green;*/
-  background: linear-gradient(to top, white 50%, rgba(36,36,36,255) 50%);
+  background: linear-gradient(to top, rgba(251,251,251,255) 50%, rgba(36,36,36,255) 50%);
   height: 100%;
   /*border: 0px solid rgba(36,36,36,255);*/
   /*margin-top: 20px;*/
