@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" media="all">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ramil Hinshaw's Portfolio Website">
+    <meta name="keywords" content="developer, designer, programmer, computer science, .net, professional, unity, javascript, c#, html, css, game">
+    <meta name="author" content="Ramil Hinshaw">
+    <title>Flexbox Test</title>
+  </head>
+
+  <body>
+
+    <div class="flex-container">
+      <header>
+
+        <img class="img-responsive portrait" src="Portrait.png" alt="Me looking at the camera">
+      </header>
+
+      <h1>Ramil Hinshaw</h1>
+
+      <h3 class="tag">C# .Net & Unity3D Developer</h3>
+
+      <nav class="flex-row">
+        <a class="flex-center flex1" href="#Home">Home</a>
+        <a class="flex-center flex1" href="#About">About</a>
+        <a class="flex-center flex1" href="Blog">Blog</a>
+        <a class="flex-center flex1" href="#Skills">Skills</a>
+        <a class="flex-center flex1" href="#Projects">Projects</a>
+        <a class="flex-center flex1" href="#Contact">Contact</a>
+        <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
+      </nav>
+
+      <h2>Recent Projects</h2>
+      <div class="projects">
+        <div class="flex-center">
+          <img class="gallery" src="./img/project-polybrew.png" alt="" width="640" height="360">
+          <img class="gallery" src="./img/project-littlePolys.png" alt="" width="640" height="360">
+        </div>
+        <div class="flex-center">
+          <img class="gallery" src="./img/project-linkchef.png" alt="" width="640" height="360">
+          <img class="gallery" src="./img/project-spook.png" alt="" width="640" height="360">
+        </div>
+      </div>
+
+      <div class="about-me">
+        <h2>About Me</h2>
+        <div class="flex-row">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis ipsum, finibus ac eleifend non, ultrices sed erat. Quisque elementum commodo est, imperdiet suscipit elit posuere a. Quisque feugiat ac urna vel viverra. Suspendisse volutpat, massa consequat ornare suscipit, tortor justo viverra felis, vel lacinia mauris lectus sed dolor. Phasellus eleifend lectus et arcu rutrum, quis fringilla eros pretium. Nam auctor, purus sit amet maximus facilisis, leo urna tincidunt nisi, eu tempus sem erat eget sem. Nunc libero dolor, mattis non sem sed, imperdiet dictum nibh. Maecenas tristique et augue vitae semper. Nam venenatis luctus metus efficitur molestie. Donec non tincidunt sem, ac rutrum mi. Cras imperdiet sodales dui, id sollicitudin lectus maximus eget. Curabitur in enim ante.
+
+          </h3>
+        </div>
+      </div>
+
+
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="flex-row">
+          <div class="container flex-col">
+            <h4>HTML</h4>
+            <div class="skill-bar">
+              <div class="skills-percent html">70%</div>
+            </div>
+
+            <h4>CSS</h4>
+            <div class="skill-bar">
+              <div class="skills-percent css">80%</div>
+            </div>
+
+            <h4>JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skills-percent js">65%</div>
+            </div>
+
+            <h4>PHP</h4>
+            <div class="skill-bar">
+              <div class="skills-percent php">20%</div>
+            </div>
+          </div>
+          <!--Row 2-->
+          <div class="container flex-col">
+            <h4>Unity3D</h4>
+            <div class="skill-bar">
+              <div class="skills-percent unity3d">85%</div>
+            </div>
+
+            <h4>C# .Net</h4>
+            <div class="skill-bar">
+              <div class="skills-percent cs">90%</div>
+            </div>
+
+            <h4>Node.js</h4>
+            <div class="skill-bar">
+              <div class="skills-percent nodejs">20%</div>
+            </div>
+
+            <h4>Python</h4>
+            <div class="skill-bar">
+              <div class="skills-percent py">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--OBSCURE EMAIL!-->
+      <div class="contact">
+        <h2>Contact</h2>
+        <div class=" flex-row">
+          <div class="container">
+            <form id="contactform" method="POST">
+              <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+              <div class="flex-row">
+                <p>Name</p>
+                <input type="text" name="name">
+              </div>
+              <div class="flex-row">
+                <p>Email</p>
+                <input type="email" name="_replyto">
+              </div>
+              <div class="flex-row">
+                <p id="message-text">Message</p>
+                <textarea type ="text" name="message"></textarea>
+              </div>
+              <div class="flex-center flex1">
+                <input type="submit" value="Send">
+              </div>
+          </div>
+            <!--Right Side-->
+            <div class="social-media flex-col">
+              <div class="flex-row">
+                <img src="./img/twitter-icon.png" alt="">
+                <p>@RamilHinshaw</p>
+              </div>
+              <div class="flex-row">
+                <img src="./img/facebook-icon.png" alt="">
+                <p>@RamilHinshaw</p>
+              </div>
+              <div class="flex-row">
+                <img src="./img/email-icon.png" alt="">
+                <p>RamilHinshaw@gmail.com</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+  </body>
+
+  <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'RamilHinshaw' + '@' + 'gmail' + '.' + 'com');
+</script>
+
+</html>
