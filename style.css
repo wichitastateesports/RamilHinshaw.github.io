@@ -284,11 +284,14 @@ nav a{
    /*margin-bottom: 0px;*/
    /*padding: 12px 13px;*/
    /*padding: auto;*/
-   margin: auto;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-left: 1vw;
-   padding-right: 3vw;
+   /*margin: auto;*/
+  /*margin: 10px 0px;*/
+  padding: 1%;
+  margin: 1% 0%; 
+   /*padding-top: 1%;*/
+   /*padding-bottom: 1%; */
+   /*padding-left: 1%;*/
+   /*padding-right: 1%;*/
    /*[>width: 154px;<]*/
    width: 15%;
    height: 100%;
@@ -302,11 +305,13 @@ nav a{
    /*font-size: 1vw;*/
   /*font-size: 24px;*/
   border: 0px solid #1e1e1e;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 9px;
-  padding-left: 3px;
-  margin: 10px 0px;
+  padding: 1%;
+  margin: 1% 0%; 
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  /*padding-right: 9px;*/
+  /*padding-left: 3px;*/
+  /*margin: 10px 0px;*/
   width: 85%;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -315,22 +320,25 @@ nav a{
 
 
 .contact textarea{
-  padding-bottom: 15vw;
+  /*padding-bottom: 15vw;*/
   padding-left: 3px;
-  margin: 10px 0px;
+  margin: 1% 0%; 
   /*resize: vertical;*/
   resize: none;
   background-color: #1e1e1e;
   border: 0px solid #1e1e1e; 
   color: white;
   /*font-size: 1vw;*/
-   font-size: 100%;
+   font-size: 124%;
   width: 85%;
   /*padding: 100% auto;*/
 }
 
   #message-text{
-  padding-bottom: 15.8vw;
+  padding-bottom: 28.3%;
+  /*margin: 10px 0;*/
+  margin: 1% 0%; 
+    /*padding: 30% 0%;*/
   /*padding-bottom: 15vh;*/
 }
 
@@ -570,6 +578,7 @@ nav .icon{
 
   .contact textarea{
     margin: auto;
+    padding-bottom: 28%;
   }
 
   .contact p{
