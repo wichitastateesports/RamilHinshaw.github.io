@@ -84,7 +84,7 @@ h3{
   color: white;
   font-weight:lighter;
   text-align: center;
-  font-size: 31px;
+  font-size: 150%;
   font-style: normal;
   /*justify-content: center;*/
   /*align-items: center;*/
@@ -278,7 +278,7 @@ nav a{
    background-color: #4a4a4a;  
    border: 0px solid #4a4a4a; 
    color: white;
-   font-size: 2vh;
+   font-size: 1vw;
    /*margin-top: 20px;*/
    /*margin-left:  85px;*/
    /*margin-bottom: 0px;*/
@@ -298,7 +298,8 @@ nav a{
   background-color: #1e1e1e;
   color: white;
   font-family: left;
-   font-size: 2vh;
+   font-size: 100%;
+   /*font-size: 1vw;*/
   /*font-size: 24px;*/
   border: 0px solid #1e1e1e;
   padding-top: 10px;
@@ -314,7 +315,7 @@ nav a{
 
 
 .contact textarea{
-  padding-bottom: 20vh;
+  padding-bottom: 15vw;
   padding-left: 3px;
   margin: 10px 0px;
   /*resize: vertical;*/
@@ -322,13 +323,14 @@ nav a{
   background-color: #1e1e1e;
   border: 0px solid #1e1e1e; 
   color: white;
-  font-size: 2vh;
+  /*font-size: 1vw;*/
+   font-size: 100%;
   width: 85%;
   /*padding: 100% auto;*/
 }
 
   #message-text{
-  padding-bottom: 22vh;
+  padding-bottom: 15.8vw;
   /*padding-bottom: 15vh;*/
 }
 
@@ -360,7 +362,7 @@ nav a{
 
 .social-media p{
   color: white;
-  font-size: 2vh;
+  font-size: 1vw;
   justify-content: center;
   margin: auto 1vw;
   padding-left: 3px;
@@ -368,7 +370,7 @@ nav a{
 }
 
 .social-media img{
-  padding: auto 3vh;
+  padding: auto 1.5vw;
   margin: 9px 4px;
   width: 20%;
   height: 20%;
@@ -436,12 +438,13 @@ nav .icon{
 
 /*LOOK INTO THIS*/
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-* 
-* h4 {
+/** {box-sizing:border-box}*/
+ 
+ h4 {
   text-align: center;
-  padding: 1px;
-  font-size: 2vh;
+  padding: 1;
+  /*font-size: 1vw;*/
+   font-size: 90%;
 }
 
 .skills {
@@ -460,20 +463,24 @@ nav .icon{
 /*This is the text in the skillbar*/
 .skills-percent {
   text-align: right; /* Right-align text */
-  padding-right: 20px; /* Add some right padding */
-  line-height: 3vh; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+
+  padding-right: 2vw; /* Add some right padding */
+  font-size: 100%;
+
+
+  line-height: 1.5vw; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
   color: white; /* White text color */
 
 }
 
-.html {width: 70%;  background-image: linear-gradient( 135deg, #F05F57 0%, #360940 100% );}
-.css {width: 80%;  background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100% );} 
-.js {width: 65%;  background-image: linear-gradient( 135deg, #92FFC0 0%, #002661 100% );}
-.php {width: 20%;  background-image: linear-gradient( 135deg, #EEAD92 0%, #6018DC 100% );}
-.unity3d {width: 85%;  background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);}
-.nodejs {width: 30%;  background-image: linear-gradient( 135deg, #A0FE65 0%, #FA016D 100%);}
-.py {width: 60%;  background-image: linear-gradient( 135deg, #FFDB01 0%, #0E197D 100%);}
-.cs {width: 90%;  background-image: linear-gradient( 135deg, #FDD819 0%, #E80505 100%);} 
+.html {width: 70%; padding: 1% 1%;  background-image: linear-gradient( 135deg, #F05F57 0%, #360940 100% );}
+.css {width: 80%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100% );} 
+.js {width: 65%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #92FFC0 0%, #002661 100% );}
+.php {width: 20%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #EEAD92 0%, #6018DC 100% );}
+.unity3d {width: 85%;  padding: 1% 0%; background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);}
+.nodejs {width: 30%;  padding: 1% 0%; background-image: linear-gradient( 135deg, #A0FE65 0%, #FA016D 100%);}
+.py {width: 60%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #FFDB01 0%, #0E197D 100%);}
+.cs {width: 90%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #FDD819 0%, #E80505 100%);} 
 
 @media(max-width: 1600px)
 {
@@ -525,8 +532,8 @@ nav .icon{
   }
 
   .about-me h3{
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 120%;
+    line-height: 120%;
   }
 
   .skills .flex-row{
@@ -534,7 +541,7 @@ nav .icon{
   }
 
   .skills-percent{
-    line-height: 2vh;
+    line-height: 1vw;
   }
 
 .projects .flex-center{
@@ -548,8 +555,8 @@ nav .icon{
     width: 85%;
     padding: 0;
     border-radius: 15;
-    font-size: 5vw;
-    margin-top: 9px;
+    font-size: 4vw;
+    margin-top: 5%;
     
   }
 
@@ -571,8 +578,8 @@ nav .icon{
     align-items: center;
     background-color: unset;
     margin: auto;
-    padding: 1vh 0px;;
-   font-size: 2.3vh;
+    padding: 0.5vw 0px;;
+   font-size: 100%;
   }
 
   #message-text{
@@ -581,8 +588,9 @@ nav .icon{
     align-items: center;
     background-color: unset;
     margin: auto;
-    padding: 1vh 0px;;
-   font-size: 2.3vh;
+    padding: 0.5vw 0px;;
+   /*font-size: 1.15vw;*/
+   font-size: 100%;
   }
 
 
