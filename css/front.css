@@ -439,16 +439,20 @@ nav a{
   .py {width: 60%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #FFDB01 0%, #0E197D 100%);}
   .cs {width: 90%;  padding: 1% 1%; background-image: linear-gradient( 135deg, #FDD819 0%, #E80505 100%);} 
 
-  @media(max-width: 1600px)
-  {
-    body{
-      width: 100%;
-    }
+@media(max-width: 1600px)
+{
+  body{
+     width: 100%;
   }
+}
 
 
-  @media(max-width: 996px)
+@media(max-width: 996px)
   {
+    
+  .social-media .flex-row{
+    display: none;
+  }
     html{
       margin: 0px;
       /*margin-top: 0px;*/
@@ -559,9 +563,6 @@ nav a{
   }
 
 
-  .social-media{
-    display: none;
-  }
 
 
 @media(max-width: 785px){
