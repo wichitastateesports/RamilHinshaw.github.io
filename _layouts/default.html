@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" media="all">
+
+    <style>
+        html{
+          font-family: Arial, Georgia, Serif;
+          background-color: rgba(36,36,36,255);
+          margin-top: 65px;
+          margin-bottom: 125px;
+          color:rgba(59,59,59,255); 
+        } 
+
+        .portrait {
+          position: relative;
+          left: 84px;
+        }
+        
+        nav{ font-family: arial; /*width: 1000px;*/
+          width: 85%;
+          margin: auto;
+          background-color: rgba(59,59,59,255);
+          overflow: hidden;
+          text-align: center;
+          height: 140px;
+          margin-right: 140px;
+        }
+
+        
+        nav a{
+          color: white;
+          font-size: 32px;
+          /*background-color: red;*/
+          /*border-style: solid;*/
+          /*border-color: black;*/
+          /*border-width: 5px;*/
+        
+          /*padding: 30px 40px;*/
+          padding-top: 30px;
+          padding-bottom: 30px;
+          text-decoration: none;
+        
+          -webkit-transition: background-color 500ms ease-out 1s;
+          -moz-transition: background-color 500ms ease-out 1s;
+          -o-transition: background-color 500ms ease-out 1s;
+          transition: background-color 400ms ease-out 0.034s;
+          /*border: 10px solid white;*/
+          /*margin: 5px;*/
+          /*width: 40px;*/
+        }
+
+        .nav-emptyBlock{
+          width: 5%;
+        }
+
+        nav a:hover{
+          background-color: lightblue;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ramil Hinshaw's Portfolio Website">
+    <meta name="keywords" content="developer, designer, programmer, computer science, .net, professional, unity, javascript, c#, html, css, game">
+    <meta name="author" content="Ramil Hinshaw">
+    <title>Ramil's Blog</title>
+  </head>
+  <body>
+
+        
+
+    <div class="container flex-row">
+        <img class="img-responsive portrait" src="../img/portrait-small.png" alt="">
+        <nav class=" flex-row">
+        <div class="nav-emptyBlock"></div>
+        <a class="flex-center flex1" href="../index.html#Home">Home</a>
+        <a class="flex-center flex1" href="../index.html#About">About</a>
+        <a class="flex-center flex1" href="Blog">Blog</a>
+        <a class="flex-center flex1" href="../index.html#Skills">Skills</a>
+        <a class="flex-center flex1" href="../index.html#Projects">Projects</a>
+        <a class="flex-center flex1" href="../index.html#Contact">Contact</a>
+        <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
+      </nav>
+    </div>
+
+    {{content}}  
+  </body>
+</html>
