@@ -7,7 +7,7 @@
         html{
           font-family: Arial, Georgia, Serif;
           background-color: rgba(36,36,36,255);
-          margin-top: 65px;
+          margin-top: 45px;
           margin-bottom: 125px;
           color:rgba(59,59,59,255); 
         } 
@@ -23,22 +23,20 @@
           background-color: rgba(59,59,59,255);
           overflow: hidden;
           text-align: center;
-          height: 140px;
-          margin-right: 140px;
         }
 
         
         nav a{
           color: white;
-          font-size: 32px;
+          font-size: 29px;
           /*background-color: red;*/
           /*border-style: solid;*/
           /*border-color: black;*/
           /*border-width: 5px;*/
         
           /*padding: 30px 40px;*/
-          padding-top: 30px;
-          padding-bottom: 30px;
+          padding-top: 15px;
+          padding-bottom: 15px;
           text-decoration: none;
         
           -webkit-transition: background-color 500ms ease-out 1s;
@@ -51,12 +49,35 @@
         }
 
         .nav-emptyBlock{
-          width: 5%;
+          width: 6%;
         }
 
         nav a:hover{
           background-color: lightblue;
         }
+
+        @media(max-width: 850px)
+        {
+          nav.flex-row{
+            flex-direction: column;
+            align-items: flex-start;
+
+          }
+          
+          nav a{
+            /*padding-right: 400px;    */
+            padding-top: 13px;
+            padding-bottom: 13px;
+            margin: 0px;
+            width: 100%;
+            font-size: 3.5vw;
+            /*text-align: left;*/
+
+          }
+        }
+
+        
+        
     </style>
 
     <meta charset="UTF-8">
@@ -70,10 +91,10 @@
 
         
 
-    <div class="container flex-row">
-        <img class="img-responsive portrait" src="../img/portrait-small.png" alt="">
+    <div class="container">
+        <!--<img class="img-responsive portrait" src="../img/portrait-small.png" alt="Me looking at camera">-->
         <nav class=" flex-row">
-        <div class="nav-emptyBlock"></div>
+        <!--<div class="nav-emptyBlock"></div>-->
         <a class="flex-center flex1" href="../index.html#Home">Home</a>
         <a class="flex-center flex1" href="../index.html#About">About</a>
         <a class="flex-center flex1" href="Blog">Blog</a>
@@ -84,6 +105,6 @@
       </nav>
     </div>
 
-    {{content}}  
+    <!--{{content}}  -->
   </body>
 </html>

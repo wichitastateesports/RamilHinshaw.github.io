@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.flex-center-col{
+.flex-col-center{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,10 @@
 .flex6 { flex: 6; }
 .flex7 { flex: 7; }
 .flex8 { flex: 8; }
+.flex9 { flex: 9; }
+.flex10 { flex: 10; }
+.flex11 { flex: 11; }
+.flex12 { flex: 12; }
 
 .img-responsive {
   max-width: 100%;
