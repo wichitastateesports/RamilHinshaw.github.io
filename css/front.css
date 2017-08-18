@@ -319,10 +319,6 @@ p {
     /*width: 100%;*/
   }
 
-  #and{
-    font-size: 2em;
-    display: none;
-  }
 
   p{
     width: auto;
@@ -332,15 +328,6 @@ p {
     line-height: 1.3em;
   }
 
-  #tag{
-    flex-direction: column;
-  }
-
-  .orange-line{
-    margin-top: 2.3em;
-    margin-bottom: 2em;
-    width: 50%;
-  }
 
   #social-media{
     margin-top: 20px;
@@ -370,6 +357,20 @@ p {
   /*nav{display: none; }*/
   /*.orange-line {display: none;}*/
 
+
+  .orange-line{
+    margin-top: 2.3em;
+    margin-bottom: 2em;
+    width: 50%;
+  }
   
+  #and{
+    font-size: 2em;
+    display: none;
+  }
+
+  #tag{
+    flex-direction: column;
+  }
 
 }
