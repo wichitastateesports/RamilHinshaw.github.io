@@ -12,8 +12,11 @@ html, body {
 }
 
 .screen-container{
+  /*background-color: red;*/
   width: 100%;
   height: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .responsive:{
@@ -83,6 +86,7 @@ h2{
 
 .orange-underline{
   border-bottom: 3.5px solid #d6471e;
+  margin-bottom: 25px;
 }
 
 /*Developer & Designer*/
