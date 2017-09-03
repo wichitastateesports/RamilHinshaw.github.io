@@ -292,6 +292,11 @@ p {
   /*border-bottom: 3.5px solid #d6471e;*/
 }
 
+@media(max-width: 1280px)
+{
+  .orange-diamond{ display: none; }
+}
+
 
 @media(max-width: 996px){
 
@@ -302,7 +307,6 @@ p {
     /*margin-top: auto;*/
   }
 
-  .orange-diamond{ display: none; }
   .bracketL{ display: none; }
   .bracketR{ display: none; }
   .portfolio{ display: none; }
