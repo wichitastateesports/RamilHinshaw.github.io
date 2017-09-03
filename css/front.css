@@ -36,13 +36,16 @@ nav{
   flex-direction: row;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 nav a{
   margin: auto;
   font-size: 27px;
   letter-spacing: 1.1px;
 	padding: 0px 34px;
-	color: white;
-	text-decoration: none;
 	/*font-weight: 700;*/
 }
 
@@ -176,7 +179,8 @@ p {
    *font-size: 145px;
    */
   /*margin: 0px 250px;*/
-  margin-left: 250px;
+  /*margin-left: 250px;*/
+  margin-left: 17%;
   align-self: center;
 }
 
@@ -186,7 +190,8 @@ p {
    *font-size: 145px;
    */
   /*margin: 0px 250px;*/
-  margin-right: 250px;
+  /*margin-right: 250px;*/
+  margin-right: 17%;
   align-self: center;
 }
 
@@ -326,7 +331,19 @@ p {
   .bracketL{ display: none; }
   .bracketR{ display: none; }
   .portfolio{ display: none; }
-  .project{ display: none; }
+  /*.project{ display: none; }*/
+  #img-outer{ display: none }
+ 
+
+  .project{
+    /*margin-right: 8px;*/
+    /*margin-left: 8px;*/
+    margin-right: 2.4%;
+    margin-left: 2.4%;
+    height: 50%;
+    width: 50%;
+
+   }
 
   .bracketR{ margin-right: 0px;}
 
@@ -380,7 +397,12 @@ p {
   }
 
   .button{
-    display: none;
+    /*display: none;*/
+    /*height: 30%; */
+    /*width: 45%;*/
+    /*font-size: 1.1em;*/
+
+    /*margin: 30% 25%;*/
   }
 
 
