@@ -72,6 +72,10 @@ h1{
   line-height: 70px;
 }
 
+#About{}
+#Portfolio{}
+#Contact{}
+
 /*About, Portfolio, & Contact*/
 h2{
   margin: 6px auto 8px auto;
@@ -211,10 +215,13 @@ p {
 .project{
   /*margin-right: 8px;*/
   /*margin-left: 8px;*/
-  margin-right: 1.4%;
-  margin-left: 1.4%;
+  margin-right: 1.0%;
+  margin-left: 1.0%;
   height: 30%;
   width: 30%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  height: 30%;
   /*margin-top: -45px;*/
   /*margin-bottom: -45px;*/
 
@@ -326,7 +333,11 @@ p {
 @media(max-width: 996px){
 
   nav{
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*display: none;*/
     /*margin: auto;*/
     /*flex-direction: column;*/
     /*margin-top: auto;*/

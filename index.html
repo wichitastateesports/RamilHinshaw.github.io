@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<link rel="stylesheet" href="css/front.css" media="all">
 		<link rel="stylesheet" href="css/style.css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Quicksand|Ubuntu" rel="stylesheet">
 		<meta charset="UTF-8">
-		<meta name="google" content="notranslate">
-		<meta http-equiv="Content-Language" content="en">
-		<meta name="language" content="English">
+		<!--<meta name="google" content="notranslate">-->
+		<!--<meta http-equiv="Content-Language" content="en">-->
+		<!--<meta name="language" content="English">-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Ramil Hinshaw's Portfolio Website">
 		<meta name="keywords" content="developer, designer, programmer, computer science, .net, professional, unity, javascript, c#, html, css, game">
@@ -15,23 +15,51 @@
 		<title>Ramil Hinshaw's Website</title>
 	</head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+	
+
 	<body>
-
 		<div class="container flex-col-center">
-
 			<div class="screen-container">
-
 
 				<!--NAV BAR-->
 				<nav >
-					<a class="flex-center flex1" href="#Home">Home</a>
+					<a class="flex-center flex1" href="#About">About</a>
 					<a class="flex-center flex1" href="#Portfolio">Portfolio</a>
 					<a class="flex-center flex1" href="#Blog">Blog</a>
 					<a class="flex-center flex1" href="#Contact">Contact</a>
 				</nav>
 
 
-
+        <!--Left Orange Diamonds-->
 				<div class="flex-row flex-center">
 
 					<div class="flex-col">
@@ -51,8 +79,10 @@
 						</div>
 					</div>
 
+          <!--My Portrait Image-->
 					<img class="portrait img-responsive" src="./img/DiamondPortrait.png" alt="Me looking at camera">
 
+        <!--Right Orange Diamonds-->
 					<div class="flex-col">
 						<div class="flex-row flex-center">
 							<div id="orange1" class="orange-diamond"><h5>Bootstrap</h5></div>
@@ -81,14 +111,17 @@
 				</div>
 
 			</div> 
-      <!--End of screen-container-->
+			<!--End of screen-container-->
 
 			<div class="content-spacing"></div>
 
-			<h2 class="orange-underline">About</h2>
-			<!--<div class="orange-line width-title"></div>-->
 
-			<br>
+      
+
+      <!--About Section-->
+
+      <a id="About" name="About"></a>
+			<h2 class="orange-underline">About</h2>
 
 			<div class="flex-row">
 				<img class="bracketL img-responsive" src="./img/bracket1.png" alt="< Symbol">
@@ -96,41 +129,45 @@
 				<img class="bracketR img-responsive img-flipY" src="./img/bracket1.png" alt="< Symbol">
 			</div>
 
-			<!--THIS IS TEMPORARY!-->
 			<div class="content-spacing"></div>
-			<!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
 
+      
+
+
+      <!--Portfolio Section-->
+
+      <a id="Portfolio" name="Portfolio"></a>
 			<h2 class="orange-underline">Portfolio</h2>
-			<br>
 
-			<!--WHOLE BUNCH OF IMAGES-->
-      <div class="responsive flex-container">
-        <div class=" flex-col">
-          <div class="portfolio flex-row flex-center">
-            <img id="img-outer" class="project img-responsive" src="./img/LD36.png" alt="">
-            <img class="project img-responsive" src="./img/LD39.png" alt="">
-            <img id="img-outer" class="project img-responsive" src="./img/Linkchef.png" alt="">
-          </div>
-          <div class="portfolio flex-row flex-center">
-            <img class="project project-middle-row img-responsive" src="./img/PolyBrew.png" alt="">
-            <img class="project project-middle-row img-responsive" src="./img/LD38.png" alt="">
-          </div>
-          <div class="portfolio flex-row flex-center">
-            <img id="img-outer" class="project img-responsive" src="./img/LD37.png" alt="">
-            <img class="project img-responsive" src="./img/QuickSpook.png" alt="">
-            <img id="img-outer" class="project img-responsive" src="./img/LionFish.png" alt="">
-          </div>
-        </div>
-      </div>
-			<!--<br>-->
+			<div class="responsive flex-container">
+				<div class=" flex-col">
+					<div class="portfolio flex-row flex-center">
+						<img id="img-outer" class="project img-responsive" src="./img/LD36.png" alt="">
+						<img class="project img-responsive" src="./img/LD39.png" alt="">
+						<img id="img-outer" class="project img-responsive" src="./img/Linkchef.png" alt="">
+					</div>
+					<div class="portfolio flex-row flex-center">
+						<img class="project project-middle-row img-responsive" src="./img/PolyBrew.png" alt="">
+						<img class="project project-middle-row img-responsive" src="./img/LD38.png" alt="">
+					</div>
+					<div class="portfolio flex-row flex-center">
+						<img id="img-outer" class="project img-responsive" src="./img/LD37.png" alt="">
+						<img class="project img-responsive" src="./img/QuickSpook.png" alt="">
+						<img id="img-outer" class="project img-responsive" src="./img/LionFish.png" alt="">
+					</div>
+				</div>
+			</div>
 			<div class="button" onclick="location.href='https://imgur.com/a/ls2K1';" style="cursor: pointer;">See More</div>
 
-			<!--THIS IS TEMPORARY!-->
 			<div class="content-spacing"></div>
-			<!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
 
+
+
+      
+      <!--Contact Section-->
+
+      <a id="Contact" name="Contact"></a>
 			<h2 class="orange-underline">Contact</h2>
-			<br>
 
 			<img class="portrait img-responsive" src="./img/DiamondPortrait.png" alt="Me looking at camera">
 			<br>
@@ -160,8 +197,6 @@
 				</div>
 				<img class="bracketR img-responsive img-flipY" src="./img/bracket2.png" alt="< Symbol">
 			</div>
-
-			<!--<br><br><br><br>-->
 
 		</div>
 	</body>
