@@ -297,23 +297,23 @@ p {
   font-size: 1.8em;
 }
 
-#social-media {
+#social-info {
   display: flex;
   flex-direction: row;
   /*margin-bottom: 10%;*/
 }
 
-#social-media .flex-col{
+#social-info .flex-col{
   padding: 6px 18px;	
   
 }
 
-#social-media a {
+#social-info a {
   font-size: 23px;
   letter-spacing: 1.3px
 }
 
-#social-media a:hover {
+#social-info a:hover {
   font-weight: bold;
   /*border-bottom: 3.5px solid #d6471e;*/
 }
@@ -391,7 +391,7 @@ p {
   }
 
 
-  #social-media{
+  #social-info{
     margin-top: 20px;
     flex-direction: column;
   }
@@ -400,7 +400,7 @@ p {
     /*display: none;*/
   }
 
-  #social-media .flex-col{
+  #social-info .flex-col{
      padding: 0px;
   }
 
