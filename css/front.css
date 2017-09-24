@@ -74,7 +74,10 @@ h1{
 
 #About{}
 #Portfolio{}
-#Contact{}
+#Contact
+{
+  padding-top: 6%;  
+}
 
 /*About, Portfolio, & Contact*/
 h2{
@@ -217,11 +220,11 @@ p {
   /*margin-left: 8px;*/
   margin-right: 1.0%;
   margin-left: 1.0%;
-  height: 30%;
-  width: 30%;
   margin-top: 0.5%;
   margin-bottom: 0.5%;
-  height: 30%;
+
+  height: 24%;
+  width: 24%;
   /*margin-top: -45px;*/
   /*margin-bottom: -45px;*/
 
@@ -286,11 +289,11 @@ p {
   padding: 0px;
 }
 
-#contact{
+#contact-info{
   margin-bottom: 8%;
 }
 
-#contact h2{
+#contact-info h2{
   font-size: 1.8em;
 }
 
@@ -332,16 +335,6 @@ p {
 
 @media(max-width: 996px){
 
-  nav{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /*display: none;*/
-    /*margin: auto;*/
-    /*flex-direction: column;*/
-    /*margin-top: auto;*/
-  }
 
   .bracketL{ display: none; }
   .bracketR{ display: none; }
@@ -424,6 +417,25 @@ p {
   /*portrait{display: none;}*/
   /*img{display: none;}*/
   /*p { display: none; }*/
+}
+
+@media(max-width: 595px)
+{
+  nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: none;
+    /*margin: auto;*/
+    /*flex-direction: column;*/
+    /*margin-top: auto;*/
+  }
+
+  nav a{
+    padding: auto;
+  }
 }
 
 @media(max-width: 450px)
