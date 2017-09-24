@@ -74,10 +74,7 @@ h1{
 
 #About{}
 #Portfolio{}
-#Contact
-{
-  padding-top: 6%;  
-}
+#Contact{}
 
 /*About, Portfolio, & Contact*/
 h2{
@@ -101,7 +98,7 @@ h3{
   font-family: "Quicksand";
   font-size: 33px;
   letter-spacing: 5px;
-  margin: -5px 0px 0px 5px;
+  margin: -5px 0px 7% 5px;
 
 }
 
@@ -378,6 +375,7 @@ p {
     /*margin-top: 2em;*/
     font-size: 1.5em;
     line-height: 1.5em;
+    margin: -3px 0px 0px 5px;
     /*width: 100%;*/
   }
 
@@ -386,8 +384,9 @@ p {
     width: auto;
     text-align: left;
     text-align-last: left;
-    font-size: 1.2em;
+    font-size: 1.0em;
     line-height: 1.3em;
+    padding: 0px 5% 0px 5%;
   }
 
 
