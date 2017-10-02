@@ -121,11 +121,11 @@ h3{
 }
 
 .orange-pagebreak{
-  background-color: #5b1d0b;
-  opacity: 0.5;
+  background-color: #d6471e;
+  opacity: 0.7;
   height: 1.75px;
   margin: -1px auto 2px auto;;
-  width: 90%;
+  width: 50%;
 }
 
 .orange-line{

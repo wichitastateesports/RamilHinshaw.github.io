@@ -1,80 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../css/style.css" media="all">
+    <link rel="stylesheet" href="{{ base }}/css/front.css" media="all">
+    <link rel="stylesheet" href="{{ base }}/css/style.css" media="all">
 
     <style>
-        html{
-          font-family: Arial, Georgia, Serif;
-          background-color: rgba(36,36,36,255);
-          margin-top: 45px;
-          margin-bottom: 125px;
-          color:rgba(59,59,59,255); 
-        } 
 
-        .portrait {
-          position: relative;
-          left: 84px;
-        }
+    h1{
+      font-size: 58px;
+      margin: 20px 0px 20px 0px;
+    }
+
+    h2{
+      font-size: 45px;
+      margin: 15px;
+    }
+
+
+    h3{
+      font-size: 35px;
+      margin: 13px;
+    }
+
+    h4{
+      font-size: 25px;
+      margin: 10px;
+    }
+
+    p {
+      font-size: 1.15em;
+      line-height: 1.65em;
+      margin: 10px 0px 15px 0px;
+      text-align-last: left;
+    }
+
+    nav {
+      padding: 0% 0px;
+      margin: 45px auto 45px auto;
+    }
+    .content{
+      width: 50%;
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-content: center;
+
+    }
         
-        nav{ font-family: arial; /*width: 1000px;*/
-          width: 85%;
-          margin: auto;
-          background-color: rgba(59,59,59,255);
-          overflow: hidden;
-          text-align: center;
-        }
-
-        
-        nav a{
-          color: white;
-          font-size: 29px;
-          /*background-color: red;*/
-          /*border-style: solid;*/
-          /*border-color: black;*/
-          /*border-width: 5px;*/
-        
-          /*padding: 30px 40px;*/
-          padding-top: 15px;
-          padding-bottom: 15px;
-          text-decoration: none;
-        
-          -webkit-transition: background-color 500ms ease-out 1s;
-          -moz-transition: background-color 500ms ease-out 1s;
-          -o-transition: background-color 500ms ease-out 1s;
-          transition: background-color 400ms ease-out 0.034s;
-          /*border: 10px solid white;*/
-          /*margin: 5px;*/
-          /*width: 40px;*/
-        }
-
-        .nav-emptyBlock{
-          width: 6%;
-        }
-
-        nav a:hover{
-          background-color: lightblue;
-        }
-
-        @media(max-width: 850px)
-        {
-          nav.flex-row{
-            flex-direction: column;
-            align-items: flex-start;
-
-          }
-          
-          nav a{
-            /*padding-right: 400px;    */
-            padding-top: 13px;
-            padding-bottom: 13px;
-            margin: 0px;
-            width: 100%;
-            font-size: 3.5vw;
-            /*text-align: left;*/
-
-          }
-        }
 
         
         
@@ -95,16 +67,30 @@
         <!--<img class="img-responsive portrait" src="../img/portrait-small.png" alt="Me looking at camera">-->
         <nav class=" flex-row">
         <!--<div class="nav-emptyBlock"></div>-->
-        <a class="flex-center flex1" href="../index.html#Home">Home</a>
-        <a class="flex-center flex1" href="../index.html#About">About</a>
-        <a class="flex-center flex1" href="Blog">Blog</a>
-        <a class="flex-center flex1" href="../index.html#Skills">Skills</a>
-        <a class="flex-center flex1" href="../index.html#Projects">Projects</a>
-        <a class="flex-center flex1" href="../index.html#Contact">Contact</a>
+        <a class="flex-center flex1" href="/">Home</a>
+        <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
+        <a class="flex-center flex1" href="/test2">Projects</a>
+        <a class="flex-center flex1" href="/blog">Blog</a>
+        <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
+        <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
         <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
       </nav>
     </div>
 
-    <!--{{content}}  -->
+
+      <div class="orange-pagebreak"></div>
+      <div class="content-spacing"></div>
+
+      <div class="container flex-col-center">
+        <div class="content flex-col">
+          {{ content }}  
+        </div>
+      </div>
+
+      <div class="content-spacing"></div>
+      <div class="orange-pagebreak"></div>
+      <div class="content-spacing"></div>
+      <div class="content-spacing"></div>
+
   </body>
 </html>

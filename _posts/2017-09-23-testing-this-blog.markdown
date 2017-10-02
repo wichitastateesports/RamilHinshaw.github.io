@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: default
 title:  "Testing this Blog derp"
 date:   2017-06-24 03:41:09 -0500
 categories: jekyll update
 ---
-MY TEST DUERP DPSFOPSDFJWELJCSDLKJ  derp
+This is a Test Post. YO!
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
