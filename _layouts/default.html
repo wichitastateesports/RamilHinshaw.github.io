@@ -7,6 +7,13 @@
 
     <style>
 
+    .center{
+      display: flex;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+    }
+
     h1{
       font-size: 52px;
       margin: 20px 0px 20px 0px;
@@ -21,6 +28,7 @@
     h3{
       font-size: 35px;
       margin: 13px;
+      text-align: center;
     }
 
     h4{
@@ -96,7 +104,7 @@
           <!--<div class="nav-emptyBlock"></div>-->
           <a class=" flex1" href="/">Home</a>
           <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
-          <a class=" flex1" href="/test2">Projects</a>
+          <a class=" flex1" href="/projects">Projects</a>
           <a class=" flex1" href="/blog">Blog</a>
           <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
           <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
@@ -109,7 +117,7 @@
       <div class="content-spacing"></div>
 
       <div class="container flex-col-center">
-        <div class="content flex-col">
+        <div class="content flex-col-center">
           {{ content }}  
         </div>
       </div>
