@@ -126,6 +126,7 @@ h3{
   height: 1.75px;
   margin: -1px auto 2px auto;;
   width: 50%;
+  min-width: 300px;
 }
 
 .orange-line{

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <link rel="stylesheet" href="{{ base }}/css/front.css" media="all">
     <link rel="stylesheet" href="{{ base }}/css/style.css" media="all">
 
     <style>
 
     h1{
-      font-size: 58px;
+      font-size: 52px;
       margin: 20px 0px 20px 0px;
     }
 
@@ -28,7 +29,8 @@
     }
 
     p {
-      font-size: 1.15em;
+      <!--font-size: 1.15em;-->
+      font-size: 1.15vw;
       line-height: 1.65em;
       margin: 10px 0px 15px 0px;
       text-align-last: left;
@@ -37,16 +39,41 @@
     nav {
       padding: 0% 0px;
       margin: 45px auto 45px auto;
+      <!--margin: 50% auto;-->
     }
+
+    nav a{
+      <!--font-size: 6.5vw;-->
+
+    }
+
     .content{
       width: 50%;
+      min-width: 300px;
       display: flex;
       flex: 1;
       justify-content: center;
       align-content: center;
 
     }
-        
+
+    @media(max-width: 415px)    
+    {
+
+      nav{
+        flex: auto;
+        justify-content: space-around;
+      }
+
+      nav a{
+        padding: 0px 7.3%;
+        align-content: stretch;
+        font-size: 7.0vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+    }
 
         
         
@@ -66,14 +93,14 @@
     <div class="container">
         <!--<img class="img-responsive portrait" src="../img/portrait-small.png" alt="Me looking at camera">-->
         <nav class=" flex-row">
-        <!--<div class="nav-emptyBlock"></div>-->
-        <a class="flex-center flex1" href="/">Home</a>
-        <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
-        <a class="flex-center flex1" href="/test2">Projects</a>
-        <a class="flex-center flex1" href="/blog">Blog</a>
-        <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
-        <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
-        <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
+          <!--<div class="nav-emptyBlock"></div>-->
+          <a class=" flex1" href="/">Home</a>
+          <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
+          <a class=" flex1" href="/test2">Projects</a>
+          <a class=" flex1" href="/blog">Blog</a>
+          <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
+          <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
+          <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
       </nav>
     </div>
 

@@ -8,7 +8,7 @@ layout: default
 
     <div class="content-spacing"></div>
 
-        <li>
+        <!--<li>-->
             <time class="time">
                 {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
                 {{ post.date | date: date_format }}
@@ -19,7 +19,7 @@ layout: default
             <p class="meta">
                 {{ post.content | strip_html | escape | truncatewords: 80 }}
             </p>
-        </li>
+        <!--</li>-->
     {% endfor %}
     </ul>
 
