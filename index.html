@@ -18,6 +18,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
+
+//SMOOTH SCROLLING
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -42,6 +44,16 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function navResponsive() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 </script>
 
 	
@@ -51,11 +63,12 @@ $(document).ready(function(){
 			<div class="screen-container">
 
 				<!--NAV BAR-->
-				<nav >
+				<nav id="myTopnav" class="topnav">
 					<a class="flex-center flex1" href="#About">About</a>
 					<a class="flex-center flex1" href="#Portfolio">Portfolio</a>
 					<a class="flex-center flex1" href="/blog">Blog</a>
 					<a class="flex-center flex1" href="#Contact">Contact</a>
+          <a class="icon" href="javascript:void(0);" onclick="navResponsive()">&#9776;</a>
 				</nav>
 
 

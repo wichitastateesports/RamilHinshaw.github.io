@@ -197,6 +197,10 @@ p {
   /*align-self: center;*/
 }
 
+.icon {
+  display: none;
+}
+
 .bracketL{
   /*
    *font-weight: bold;
@@ -474,21 +478,56 @@ p {
 
 @media(max-width: 595px)
 {
-  nav{
+
+  .portrait{
+    margin: 35px 0px 0px 0px;
+  }
+
+  .topnav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto;
-    display: none;
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    margin-left: 0px;
+    margin-right: 75px;
+    margin-bottom: 55px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #09030d;
+
+    /*FIXED*/
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    /*display: none;*/
     /*margin: auto;*/
     /*flex-direction: column;*/
     /*margin-top: auto;*/
   }
 
-  nav a{
-    padding: auto;
+  .topnav .flex1{
+    display: none;
   }
+
+  .topnav.responsive .flex1{
+    display: block;
+    font-size: 1.40em;
+    /*display: none;*/
+  }
+
+  .topnav .icon{
+
+    /*margin-top: 22px;*/
+    display: block;
+    /*border: solid #d6471e 3px;*/
+    /*border-radius: 15px;*/
+  }
+
 }
 
 @media(max-width: 450px)
