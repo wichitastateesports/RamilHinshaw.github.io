@@ -1,14 +1,21 @@
 ---
 layout: default
+title: Game1
+tags: ['html', 'css', 'javascript', 'react', 'app', 'android', 'ios']
+category: project
+splash: /img/projects/ld39/splash.png
 ---
 
 
-Game Name
+Game 1
 ==============
 
+![Cat madly typing on keyboard](/portfolio/ld37/splash.png)
 
 This is a test 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula, augue vitae tincidunt malesuada, lorem tellus sollicitudin justo, at mattis ipsum nibh ac libero. Maecenas luctus, ligula id tincidunt tempor, dolor enim posuere dolor, ac accumsan eros velit eu ex. Sed efficitur lacinia sem ac dictum. Quisque mattis ante eu enim tincidunt aliquam. Aliquam hendrerit faucibus leo ac consectetur. Quisque et neque malesuada, malesuada diam non, interdum risus. Aenean vehicula arcu nunc, tempor gravida felis tristique et. Aliquam id massa eget nisi cursus mattis sed sed arcu.
+
+  ![Cat madly typing on keyboard](/img/404-cat.gif)
 
 Maecenas mattis augue vitae maximus ultrices. Morbi massa tortor, pretium eu iaculis sed, ultricies sit amet nulla. Quisque tempor lorem sit amet ligula congue, sit amet volutpat lorem finibus. Nunc fringilla mollis sapien, vel molestie nibh malesuada ut. Nullam a ornare dolor. Donec bibendum mauris leo, vitae mollis nisl vehicula vel. Etiam a elit et libero pellentesque feugiat. Aenean at elit aliquet, elementum turpis eu, porttitor lacus. Sed sit amet ipsum molestie nunc rutrum viverra sed id ex. In elit odio, commodo sit amet mauris non, aliquam ultrices leo. Praesent ultricies orci eget odio semper, non ullamcorper velit ultricies. Fusce condimentum aliquam placerat.
 

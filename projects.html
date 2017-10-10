@@ -2,22 +2,31 @@
 layout: default
 ---
 
+<section class="blog">
 
-<h1>Projects</h1>
+    <div class="content-spacing"></div>
+    <ul class="list">
+    {% for page in site.pages %}
+      {% if page.category == 'project' %}
+        <!--<li>-->
+            <!--
+               -<time class="time">
+               -    {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+               -    {{ post.date | date: date_format }}
+               -</time>
+               -->
+            <h4>
+                <a class="link" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
+                <img src="{{page.splash}}" alt="{{page.title}} splash image">
+            </h4>
+            <p class="meta">
+                {{ page.content | strip_html | escape | truncatewords: 80 }}
+            </p>
+        <!--</li>-->
+      {% endif %}
+    {% endfor %}
+    </ul>
 
-<div class="content-spacing"></div>
-
-<blockquote class="center imgur-embed-pub" lang="en" data-id="a/ls2K1"><a href="//imgur.com/ls2K1">Various Projects I worked on for fun</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-<h3>This is still a WIP!</h3>
-  <p>
-  Imgur is the temporaray host to show off my projects.
-  <br>
-  <br>
-  <a class="center" href="https://imgur.com/a/ls2K1">Direct Imgur Portfolio Link Here!</a>
-
-  <br>
-  <br>
-  <a class="center" href="/test2">Test Game Link (WIP)</a>
-  </p>
-
+    <div class="content-spacing"></div>
+    <!--<p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}" role="link">via RSS</a></p>-->
+</section>
