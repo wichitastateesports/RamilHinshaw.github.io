@@ -1,32 +1,33 @@
 ---
 layout: default
+imgDir: /img/projects/
 ---
 
-<section class="blog">
+<!--<section class="blog">-->
 
-    <div class="content-spacing"></div>
+  <!--<div class="content-spacing"></div>-->
     <ul class="list">
-    {% for page in site.pages %}
-      {% if page.category == 'project' %}
-        <!--<li>-->
-            <!--
-               -<time class="time">
-               -    {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-               -    {{ post.date | date: date_format }}
-               -</time>
-               -->
-            <h4>
-                <a class="link" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
-                <img src="{{page.splash}}" alt="{{page.title}} splash image">
-            </h4>
-            <p class="meta">
-                {{ page.content | strip_html | escape | truncatewords: 80 }}
-            </p>
-        <!--</li>-->
-      {% endif %}
-    {% endfor %}
+      {% for page in site.pages %}
+        {% if page.category == 'project' %}
+
+        <h4>
+          <a class="link orange-underline-thin" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
+        </h4>
+        <div class="flex-row flex-center">
+          <img class="thumbnail" src="{{page.imgDir}}/splash.png" alt="{{page.title}} splash image">
+          <p class="meta flex3">
+          <!--{{ page.content | strip_html | escape | truncatewords: 80 }}-->
+          {{ page.description }}
+          </p>
+        </div>
+
+        {% endif %}
+
+        <div class="content-spacing"></div>
+
+      {% endfor %}
     </ul>
 
-    <div class="content-spacing"></div>
-    <!--<p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}" role="link">via RSS</a></p>-->
-</section>
+  <div class="content-spacing"></div>
+  <!--<p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}" role="link">via RSS</a></p>-->
+<!--</section>-->

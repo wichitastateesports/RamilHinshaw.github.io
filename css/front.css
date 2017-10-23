@@ -100,6 +100,12 @@ h2{
   margin-bottom: 25px;
 }
 
+.orange-underline-thin{
+  border-bottom: 1.75px solid #d6471e;
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+
 /*Developer & Designer*/
 h3{
   font-family: "Quicksand";

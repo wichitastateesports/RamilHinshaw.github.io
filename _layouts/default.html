@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Quicksand|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="{{ base }}/css/front.css" media="all">
     <link rel="stylesheet" href="{{ base }}/css/style.css" media="all">
 
@@ -9,6 +10,10 @@
 
     .center{
       display: flex;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       text-align: center;
       align-content: center;
       justify-content: center;
@@ -37,8 +42,7 @@
     }
 
     p {
-      <!--font-size: 1.15em;-->
-      font-size: 1.15vw;
+      font-size: 1.15em;
       line-height: 1.65em;
       margin: 10px 0px 15px 0px;
       text-align-last: left;
@@ -63,6 +67,18 @@
       justify-content: center;
       align-content: center;
 
+    }
+
+    .thumbnail{
+      margin: 25px 25px 25px 0px;
+      height: 220px;
+      width: 220px;
+      min-height: auto;
+        
+    }
+    @media(max-width: 1024px)    
+    {
+      .thumbnail{display: none;}
     }
 
     @media(max-width: 415px)    
@@ -104,8 +120,8 @@
           <!--<div class="nav-emptyBlock"></div>-->
           <a class=" flex1" href="/">Home</a>
           <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
-          <a class=" flex1" href="/projects">Projects</a>
-          <a class=" flex1" href="/blog">Blog</a>
+          <a class=" flex1" href="/projects.html">Projects</a>
+          <a class=" flex1" href="/blog.html">Blog</a>
           <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
           <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
           <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
