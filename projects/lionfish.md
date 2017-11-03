@@ -12,7 +12,7 @@ description: Derp the game is an amazing game made in 2017 for the fake game jam
 Lion Fish App
 ==============
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vTXAlwVaZKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="940" height="675" src="https://www.youtube-nocookie.com/embed/vTXAlwVaZKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 
 This app was made for the Big Ocean [Button Challenge](https://herox.com/bigoceanbutton) along with 3 other members.
@@ -26,3 +26,12 @@ I was tasked with the front-end design of the project and used React Native for 
 4. Tools that I decided use, along with libaries
 5. Problems I had to overcome
 6. Conclusion
+
+<div class="flex-row">
+<p style="color: red"> TEST </p>
+<p style="font-size: 98px"> TEST </p>
+<p style="padding: 48px"> TEST </p>
+</div>
+
+
+
