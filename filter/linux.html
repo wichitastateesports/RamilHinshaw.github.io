@@ -1,0 +1,29 @@
+---
+layout: default
+imgDir: /img/projects/
+---
+
+
+<ul class="list">
+  {% for page in site.pages %}
+  {% if page.tags contains 'linux' %}
+
+  <h4>
+    <a class="link orange-underline-thin" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
+  </h4>
+  <div class="flex-row flex-center">
+    <img class="thumbnail" src="{{page.imgDir}}/splash.png" alt="{{page.title}} splash image">
+    <p class="meta flex3">
+    <!--{{ page.content | strip_html | escape | truncatewords: 80 }}-->
+    {{ page.description }}
+    </p>
+  </div>
+
+  <div class="content-spacing"></div>
+
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<div class="content-spacing"></div>
+

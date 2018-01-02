@@ -44,6 +44,13 @@ a{
 	color: white;
 }
 
+.href{
+  text-decoration: none;
+  height: inherit;
+  width: inherit;
+  display: inherit;
+}
+
 nav a{
   margin: auto;
   font-size: 27px;
@@ -160,7 +167,7 @@ h3{
 }
 
 .orange-diamond:hover {
-  /*background-color: #e27828;*/
+  background-color: #e27828;
 }
 
 h5 {
@@ -246,8 +253,10 @@ p {
   margin-top: 0.5%;
   margin-bottom: 0.5%;
 
-  height: 24%;
-  width: 24%;
+  height: 25%;
+  width: 25%;
+  border: none;
+  outline: none;
   /*margin-top: -45px;*/
   /*margin-bottom: -45px;*/
 
@@ -557,4 +566,33 @@ p {
     flex-direction: column;
   }
 
+}
+
+
+/* 
+ Diamond Cutout
+Credit Gaurav Singh - http://codepen.io/4dgaurav/pen/KDbBe/
+*/
+
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.losange {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+
+.losange .los1 img {
+  width: 100%;
+  height: auto;
 }

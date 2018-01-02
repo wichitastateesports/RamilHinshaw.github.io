@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Character Customization Concept with Blendshapes
-tags: ['html', 'css', 'javascript', 'react', 'app', 'android', 'ios']
-category: project
+tags: unity c# ludumdare
+category: project game
 imgDir: /img/projects/charactercustomization/
 description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
 

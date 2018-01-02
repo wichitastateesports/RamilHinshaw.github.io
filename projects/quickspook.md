@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Quickspook
-tags: ['html', 'css', 'javascript', 'react', 'app', 'android', 'ios']
+tags: unity3d c# ludumdare
 category: project
 imgDir: /img/projects/quickspook/
 description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
@@ -9,7 +9,7 @@ description: Derp the game is an amazing game made in 2017 for the fake game jam
 ---
 
 
-Polybrew
+Project Quick Spook
 ================
 
 ![Picture](/img/projects/quickspook/4.png)
