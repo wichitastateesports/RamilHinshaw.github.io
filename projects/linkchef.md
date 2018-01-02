@@ -4,7 +4,7 @@ title: Project Linkchef
 tags: unity3d game
 category: project
 imgDir: /img/projects/linkchef/
-description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
+description: This was a concept project to recreate the dialouge in ocarina of time and understanding linked lists and events. Since I love the Legend of Zelda franchise I went all out on this project and created everything from scratch. For copyright reasons this Link is not the hero of time but the Chef of Hyrule. Also a reference to my friend's internet alias.
 
 ---
 

@@ -4,7 +4,7 @@ title: Polybrew
 tags: unity3d c# ludumdare
 category: project game
 imgDir: /img/projects/polybrew/
-description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
+description: A fun side project I'm working on with a partner on the internet. Similar to my RPG shop idea for Ludum Dare 38 but instead of a shopkeeper you are a Alchemist making various potions. THe best part of the game is it encourages creativity with the ingredients. Just throw things into the cauldron and making something that you can sell to various npcs.
 
 ---
 

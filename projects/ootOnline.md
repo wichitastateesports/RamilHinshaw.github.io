@@ -4,7 +4,7 @@ title: Oot Multiplayer test With PUN
 tags: unity3d c# ludumdare
 category: project game
 imgDir: /img/projects/ootOnline/
-description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
+description: Very old project I worked on when Unity was still very new. It is no secret of love the Legend of Zelda franchise and I had this set goal recreating my favorite game from my childhood and getting multiplayer working so my friends and I could play. It was a very weird and frustatrating expereince trying to train my brain on what information the master and clients were suppose to have, but it was a valuable experience.
 
 ---
 

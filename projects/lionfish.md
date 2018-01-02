@@ -4,7 +4,7 @@ title: Lionfish App
 tags: ['html', 'css', 'javascript', 'react', 'app', 'android', 'ios']
 category: project
 imgDir: /img/projects/lionfish/
-description: Derp the game is an amazing game made in 2017 for the fake game jam that doesn't exist. This is just a template for the games discription so don't take this to seriously. I could use lorem ipsum but this is more fun. Welp I need more lines so the quick brown fox jumped over the lazy dog.
+description: This was a project that was worked with a team for the Big Ocean Button Challenge. My Job was to work on the front end of the app and I could use whatever tools I needed to do the job. I chose to work with React Native with my familiarity with Html and Css. It was very challenging and was my first app but I am happy I took up the challenge to learn something new.
 
 ---
 
