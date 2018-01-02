@@ -39,7 +39,7 @@ The first person controller for unity is what the name applies. It was my attemp
 
 For the longest time I never really understood how a computer works and thats understandable because there is so much abstraction happening in the background that makes high level coding easy. Last semester I took a class in Digital Design that taught me how to read binary, octal, and hexadecimal and how half-adders, full-adders, multiplexers, decoders, clocks, etc worked. It was a very important class expecially pairing this up with learning how a cpu works. A lot of the stuff I learned in Digital Design was handled by the ALU (Arithmetic Logic Unity). I can happily say a computer isn't this magical box to me anymore.
 
-I have a youtube account under the alias [Glauz][glauz-youtube] where I frequently post videos my Ludum Dare timelapses and cover things on Unity3D not covered on youtube yet like my Character Customization with Blend Shape Video. I do this because I love looking at my past work done in a timelapse. Its the encouragement I need to show my present self that I work hard when I set my mind to it. Ludum Dare is my Love/Hate relationship. It gets so tiring at the end of it and feels like I took a lot of mental damage but the thrill on having a project in the end of it is so satisfying.
+I have a youtube account under the alias [Glauz](https://www.youtube.com/glauzcoding) where I frequently post videos my Ludum Dare timelapses and cover things on Unity3D not covered on youtube yet like my Character Customization with Blend Shape Video. I do this because I love looking at my past work done in a timelapse. Its the encouragement I need to show my present self that I work hard when I set my mind to it. Ludum Dare is my Love/Hate relationship. It gets so tiring at the end of it and feels like I took a lot of mental damage but the thrill on having a project in the end of it is so satisfying.
 
 The next goal is a life style choice for myself. When I had to renew my Driver's Liscense and I gave my weight to them, I asked how much I weighed previously and their reply hit me hard. I somehow gained 35 pounds in college so I was adamant on losing it all. Took 2 years (and back and forth struggle) but I managaed to drop down to 149 pounds. Though Thanksgiving and the Holiday break brought me back up to 153 pounds I'm confident I can bring it back down easily and its actually turned out quite fun to do now.
 
@@ -80,5 +80,4 @@ BONUS
 These are my goals for this year and I will achieve all of these! 
 
 
-[https://www.youtube.com/glauzcoding](glauz-youtube)
 
