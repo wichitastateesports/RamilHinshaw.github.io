@@ -8,7 +8,7 @@ imgDir: /img/projects/
   <!--<div class="content-spacing"></div>-->
     <ul class="list">
       {% for page in site.pages %}
-        {% if page.category == 'project' %}
+        {% if page.category contains 'project' %}
 
         <h4>
           <a class="link orange-underline-thin" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
