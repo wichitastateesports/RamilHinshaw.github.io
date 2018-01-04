@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
+    <!--{% include analytics.html %}-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111936943-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111936943-1');
+</script>
+
 		<link rel="stylesheet" href="css/front.css" media="all">
 		<link rel="stylesheet" href="css/style.css" media="all">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Quicksand|Ubuntu" rel="stylesheet">
@@ -13,7 +25,6 @@
 		<meta name="keywords" content="developer, designer, programmer, computer science, .net, professional, unity, javascript, c#, html, css, game">
 		<meta name="author" content="Ramil Hinshaw">
 		<title>Ramil Hinshaw's Website</title>
-    {% include analytics.html %}
 	</head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
