@@ -6,7 +6,9 @@ category: project game
 imgDir: /img/projects/ictwi18/
 description: >-
   This was a game made for the ICT Winter 2018 Gamejam with the theme "One
-  Button". This was my first local event game jam held here at my college. Was a very fun experience and met with a lot of interesting people here. The game I created for this game jam was a cute little tower defense game.
+  Button". This was my first local event game jam held here at my college. Was a
+  very fun experience and met with a lot of interesting people here. The game I
+  created for this game jam was a cute little tower defense game.
 published: true
 ---
 
@@ -18,7 +20,6 @@ ICT Winter 2018 GameJam: Attack of the Forest Creatures
 
 <div class="content-spacing"></div>
 
-ICT Winter 2018 GameJam: Attack of the Forest Creatures
 This was made for a local Game Jam here in Wichita, KS called the ICT Winter 2018 GameJam. This was my first gamejam were I had to attend in person for the event (unlike ludum dare). In fact this very event was happening at the college I was going to so I didn't have much of an excuse not to go. The event was very fun and enjoyable and I would love to go to another event in the future.
 
 
