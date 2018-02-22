@@ -4,7 +4,7 @@ title: Character Customization Concept with Blendshapes
 tags: unity c# ludumdare
 category: project game
 imgDir: /img/projects/charactercustomization/
-description: This is my initial concept project on how to use blendshapes in Unity's GameEngine for character customization. Surprisingly there were no documentation on this on the web at the time nor was there any on youtube so dived down programmed an optimal way of achieving this. There now a video of it on youtube with my Alias as Glauz.
+description: This is my initial concept project on how to use blendshapes in Unity's GameEngine for character customization. Surprisingly there were no documentation on this on the web at the time nor was there any on youtube so I dived down programmed an optimal way of achieving this. There is now a video of it on youtube with my Alias as Glauz.
 
 ---
 

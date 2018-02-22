@@ -1,0 +1,35 @@
+---
+layout: default
+title: ITC Winter 2018 | Attack of the Forest Creatures
+tags: unity3d c# ludumdare
+category: project game
+imgDir: /img/projects/null.png
+description: This was a game made for the ludum dare 36 with the theme "Ancient Technology". This was my first entry for Ludum Dare and its not worth glancing at but it is my creation and this project is what finally gave me the motivation on all the other Ludum Dare entries afterward. 
+
+---
+
+
+ITC Winter 2018 GameJam: Attack of the Forest Creatures
+================
+
+<iframe width="940" height="500" src="https://www.youtube-nocookie.com/embed/MJwxWaAJ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<div class="content-spacing"></div>
+<div class="content-spacing"></div>
+
+![Picture](/img/projects/ld36/1.png)
+###Blendshape testing with my own custom models :)
+Ludam Dare 36: Crystal Exploits
+This was made for Ludam Dare 36 (A GameJam where you make a game based on a theme in 48-72 hours). The theme was "Ancient Technology".  The idea behind the game was to pickup the crystal and put them on the pedestals to move the platforms. Each crystal effected a platform in different ways and the player had to make it towards the end of the level to beat it. I ran out of time and didn't give myself enough time to finish this beauty. Level Design was 5% of the whole process.
+
+![Picture](/img/projects/ld36/2.png)
+This was my first entry to Ludum and of course like a newbie I did not finish it quickly enough in the 72 hours I was provided. But guess what, who cares! It was an amazing experience to go through and I had a blast going running agaist that clock. Hopefully in the future I can take this experience and improve myself.
+
+
+
+Links
+-----
+
+Timelapse: [https://www.youtube.com/watch?v=MJwxWaAJ-gY](https://www.youtube.com/watch?v=MJwxWaAJ-gY)
+
+Game: [http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113497](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113497)
