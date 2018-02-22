@@ -3,7 +3,7 @@ layout: default
 title: ICT Winter 2018 | Attack of the Forest Creatures
 tags: 'unity3d c# ludumdare'
 category: project game
-imgDir: /img/projects/null.png
+imgDir: /img/projects/ictwi18/splash.png
 description: >-
   This was a game made for the ludum dare 36 with the theme "Ancient
   Technology". This was my first entry for Ludum Dare and its not worth glancing
