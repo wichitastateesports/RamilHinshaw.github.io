@@ -5,10 +5,8 @@ tags: 'unity3d c# ludumdare'
 category: project game
 imgDir: /img/projects/ictwi18/splash.png
 description: >-
-  This was a game made for the ludum dare 36 with the theme "Ancient
-  Technology". This was my first entry for Ludum Dare and its not worth glancing
-  at but it is my creation and this project is what finally gave me the
-  motivation on all the other Ludum Dare entries afterward.
+  This was a game made for the ICT Winter 2018 Gamejam with the theme "One
+  Button". This was my first local event game jam held here at my college. Was a very fun experience and met with a lot of interesting people here. The game I created for this game jam was a cute little tower defense game.
 published: true
 ---
 
