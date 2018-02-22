@@ -3,7 +3,7 @@ layout: default
 title: ICT Winter 2018 | Attack of the Forest Creatures
 tags: 'unity3d c# ludumdare'
 category: project game
-imgDir: /img/projects/ictwi18/splash.png
+imgDir: /img/projects/ictwi18/
 description: >-
   This was a game made for the ICT Winter 2018 Gamejam with the theme "One
   Button". This was my first local event game jam held here at my college. Was a very fun experience and met with a lot of interesting people here. The game I created for this game jam was a cute little tower defense game.
