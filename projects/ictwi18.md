@@ -27,7 +27,6 @@ This was made for a local Game Jam here in Wichita, KS called the ICT Winter 201
 <div class="content-spacing"></div>
 
 ![Picture](/img/projects/ictwi18/1.png)
-###Blendshape testing with my own custom models :)
 Just like many other game jams, we are given 48 hours to create a game after the theme gets finalized from our votes. The theme for this jam was "One Button" which was not my favorite out of the bumch but was definitely doable. Like always I recorded most of the development behind my game (12 hours of recording)
 
 
