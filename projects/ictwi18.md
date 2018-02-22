@@ -1,35 +1,46 @@
 ---
 layout: default
-title: ITC Winter 2018 | Attack of the Forest Creatures
-tags: unity3d c# ludumdare
+title: ICT Winter 2018 | Attack of the Forest Creatures
+tags: 'unity3d c# ludumdare'
 category: project game
 imgDir: /img/projects/null.png
-description: This was a game made for the ludum dare 36 with the theme "Ancient Technology". This was my first entry for Ludum Dare and its not worth glancing at but it is my creation and this project is what finally gave me the motivation on all the other Ludum Dare entries afterward. 
-
+description: >-
+  This was a game made for the ludum dare 36 with the theme "Ancient
+  Technology". This was my first entry for Ludum Dare and its not worth glancing
+  at but it is my creation and this project is what finally gave me the
+  motivation on all the other Ludum Dare entries afterward.
+published: true
 ---
 
 
-ITC Winter 2018 GameJam: Attack of the Forest Creatures
+ICT Winter 2018 GameJam: Attack of the Forest Creatures
 ================
 
-<iframe width="940" height="500" src="https://www.youtube-nocookie.com/embed/MJwxWaAJ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="940" height="500" src="https://www.youtube-nocookie.com/embed/lrlJ4HHW-l8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <div class="content-spacing"></div>
+
+ICT Winter 2018 GameJam: Attack of the Forest Creatures
+This was made for a local Game Jam here in Wichita, KS called the ICT Winter 2018 GameJam. This was my first gamejam were I had to attend in person for the event (unlike ludum dare). In fact this very event was happening at the college I was going to so I didn't have much of an excuse not to go. The event was very fun and enjoyable and I would love to go to another event in the future.
+
+
 <div class="content-spacing"></div>
 
-![Picture](/img/projects/ld36/1.png)
+![Picture](/img/projects/ictwi18/1.png)
 ###Blendshape testing with my own custom models :)
-Ludam Dare 36: Crystal Exploits
-This was made for Ludam Dare 36 (A GameJam where you make a game based on a theme in 48-72 hours). The theme was "Ancient Technology".  The idea behind the game was to pickup the crystal and put them on the pedestals to move the platforms. Each crystal effected a platform in different ways and the player had to make it towards the end of the level to beat it. I ran out of time and didn't give myself enough time to finish this beauty. Level Design was 5% of the whole process.
+Just like many other game jams, we are given 48 hours to create a game after the theme gets finalized from our votes. The theme for this jam was "One Button" which was not my favorite out of the bumch but was definitely doable. Like always I recorded most of the development behind my game (12 hours of recording)
 
-![Picture](/img/projects/ld36/2.png)
-This was my first entry to Ludum and of course like a newbie I did not finish it quickly enough in the 72 hours I was provided. But guess what, who cares! It was an amazing experience to go through and I had a blast going running agaist that clock. Hopefully in the future I can take this experience and improve myself.
+
+![Picture](/img/projects/ictwi18/2.png)
+My game is a simple tower defense game with the forest critters as your adversaries. Bunnies and deers, or even bunnes on deers will come out of the forest to attack the players fort. To simply defend you shoot them with your given gun while watching out for your bullet count (which is infinite but reloading is still a wait time). The '!' at the bottom right was suppose to be used for the one button theme to nuke the animals. If you scroll up in the game, you will notice a plane dropping a nuke that I didn't finish implementing. There is also a currency system in place that was never fully implemented also. Though despite all that I'm happy with the result and next time I know how to prepare for this event.
+
+<div class="content-spacing"></div>
 
 
 
 Links
 -----
 
-Timelapse: [https://www.youtube.com/watch?v=MJwxWaAJ-gY](https://www.youtube.com/watch?v=MJwxWaAJ-gY)
+Timelapse: [https://www.youtube.com/watch?v=lrlJ4HHW-l8](https://www.youtube.com/watch?v=lrlJ4HHW-l8)
 
-Game: [http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113497](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113497)
+Itch.io: [https://ramilhinshaw.itch.io/attack-of-the-forest-creatures](https://ramilhinshaw.itch.io/attack-of-the-forest-creatures)
