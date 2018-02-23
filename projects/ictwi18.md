@@ -30,7 +30,7 @@ Just like many other game jams, we are given 48 hours to create a game after the
 
 
 ![Picture](/img/projects/ictwi18/2.png)
-My game is a simple tower defense game with the forest critters as your adversaries. Bunnies and deers, or even bunnes on deers will come out of the forest to attack the players fort. To simply defend you shoot them with your given gun while watching out for your bullet count (which is infinite but reloading is still a wait time). The '!' at the bottom right was suppose to be used for the one button theme to nuke the animals. If you scroll up in the game, you will notice a plane dropping a nuke that I didn't finish implementing. There is also a currency system in place that was never fully implemented also. Though despite all that I'm happy with the result and next time I know how to prepare for this event.
+My game is a simple tower defense game with the forest critters as your adversaries. Bunnies and deers, or even bunnies on deers will come out of the forest to attack the players fort. To simply defend you shoot them with your given gun while watching out for your bullet count (which is infinite but reloading is still a wait time). The '!' at the bottom right was suppose to be used for the one button theme to nuke the animals. If you scroll up in the game, you will notice a plane dropping a nuke that I didn't finish implementing. There is also a currency system in place that was never fully implemented also. Though despite all that I'm happy with the result and next time I know how to prepare for this event.
 
 <div class="content-spacing"></div>
 
