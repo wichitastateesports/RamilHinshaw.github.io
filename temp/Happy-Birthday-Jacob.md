@@ -15,16 +15,21 @@ Happy Birthday Jacob!
 <div class="content-spacing"></div>
 
 
-Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday.
+Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday. Because that is far from the truth.
 
-I was too lazy to create a birthday card for you so instead I finally created that website I promised you. (Partially)
+You see, this idiot friend of yours decided not to was too lazy to create a birthday card (like any sane person would) so instead I decided to finally created that website I promised you. And lets just say a week was not enough for my terrible html skills haha but was well worth it.
 
 Its not mobile friendly at the very moment but hey, who needs phones anyways :)
 
 Here's an example of the website for you
 
 <div class="content-spacing"></div>
-[Jacob Hobbie's Website](www.google.com)
+[Jacob Hobbie's Website](http://ramilhinshaw.com/temp/Jacobs%20Website%20V2/index.html)
 <div class="content-spacing"></div>
 
+Once I finish the media query apocalypse I will give the jekyll source. I tried to finish it today but alas time does not infinite.
+
+Enough about me, today is your day (or whats left of it)
+
+Good luck with your life's endeavors!
 
