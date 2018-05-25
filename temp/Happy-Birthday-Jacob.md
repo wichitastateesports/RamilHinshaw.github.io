@@ -6,15 +6,13 @@ categories: personal
 tags: null
 published: true
 ---
----
-layout: default
----
-
 
 Happy Birthday Jacob!
 ==============
 
 ![Bday](https://www.wishesgreeting.com/wp-content/uploads/2015/10/happy-birthday-cat02.jpg)
+
+<div class="content-spacing"></div>
 
 
 Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday.
@@ -22,3 +20,11 @@ Happy Birthday Jacob! I hope you didn't think I would miss something as importan
 I was too lazy to create a birthday card for you so instead I finally created that website I promised you. (Partially)
 
 Its not mobile friendly at the very moment but hey, who needs phones anyways :)
+
+Here's an example of the website for you
+
+<div class="content-spacing"></div>
+[Jacob Hobbie's Website](www.google.com)
+<div class="content-spacing"></div>
+
+
