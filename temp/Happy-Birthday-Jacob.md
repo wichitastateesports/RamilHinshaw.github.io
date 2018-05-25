@@ -17,19 +17,26 @@ Happy Birthday Jacob!
 
 Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday. Because that is far from the truth.
 
-You see, this idiot friend of yours decided not to was too lazy to create a birthday card (like any sane person would) so instead I decided to finally created that website I promised you. And lets just say a week was not enough for my terrible html skills haha but was well worth it.
+You see, this idiot friend of yours decided not to was too lazy to create a birthday card (like any sane person would) so instead I decided to finally created that website I promised you. And lets just say a week was not enough for my terrible html skills haha but was well worth it. Now I have something worth showing :D
 
-Its not mobile friendly at the very moment but hey, who needs phones anyways :)
+Its not mobile friendly at the very moment but hey, who uses phones anyways :)
 
-Here's an example of the website for you
+_(*recommended resolution of 1080p)_
 
-<div class="content-spacing"></div>
-[Jacob Hobbie's Website](http://ramilhinshaw.com/temp/Jacobs%20Website%20V2/index.html)
-<div class="content-spacing"></div>
+Here's an example of the website for you:    [Jacob Hobbie's Website](http://ramilhinshaw.com/temp/Jacobs%20Website%20V2/index.html) 
 
-Once I finish the media query apocalypse I will give the jekyll source. I tried to finish it today but alas time does not infinite.
+Source: [GitHub](https://github.com/RamilHinshaw/RamilHinshaw.github.io/tree/master/temp/Jacobs%20Website%20V2)
 
-Enough about me, today is your day (or whats left of it)
+Once I finish the media query apocalypse I will give the jekyll source. I tried to finish it today but alas time is not infinite.
 
-Good luck with your life's endeavors!
+And whenever we meet an real life I'll give you my real present >:)
+
+Welp thats all I can say but good luck with your life's endeavors and may we continue being friends Sir Mr. Level Hyrulian 42 Jacob Hobbie -chan ~desu!
+
+
+
+<div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
+<div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
+
+![Ice Bucket Jacob](https://raw.githubusercontent.com/RamilHinshaw/RamilHinshaw.github.io/master/temp/Ice%20Bucket.PNG)
 
