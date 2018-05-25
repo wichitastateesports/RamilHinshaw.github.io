@@ -1,0 +1,37 @@
+= Colors Used =
+
+white:		#fdfaf4		*letter bg
+blue: 		#57d2f1		*dash
+red:		#ff595c		*dash	Header (about me, projects, contact, etc)
+name:		#fb3d3a		*deep red
+brown:		#fdfaf4		*social media	
+button:		#ef5452		
+btn-text:	#f7f7f7		*white, in button
+font-color:	#69572e
+fntOutline:	#fde3c3		*Surround the headers
+contactTxt:	#524b41		*under contact, Wichita, @, .com
+
+
+
+= Text =
+
+
+About Me
+
+I like to develop software, create interesting graphics, and come up with innovative ideas for businesses. I love to sing, dance, and talk to as many people as possible. The world is full of interesting stories, and I'm here to absorb as many as I can. 
+
+Projects:
+
+Sleepless Nights
+Have you ever watched a college movie? Those movies show us unrealistic fantasies about what college will be like, as I learned the hard way. Because of this, I wanted to be able to show new or potential students what college is really like, good and bad. Hear from me and variety of different college students across America, and find out what college is really like.
+
+Shuffle Casts
+Shuffle Casts is an idea for a new type of podcasting experience, and allow for new podcasts to be discovered easily. Based on tone, pitch, speed, topic, and category, Shuffle Casts will be able to find you new podcasts that you will like! Not only that, but Shuffle Casts will allow you to break out of your comfort zone and find podcasts you may have never heard of. This is a work in progres with my business partern, John F. Cleary.
+
+Password Generator
+This is a simple password generator made in C#. While it is on-hold, I plan on adding encryption and a mini-database for your generated passwords. If you're looking for a real password manager, I wouldn't reccomend anything else but 1Password.
+
+Contact
+Wichita, KS
+contact@JacobHobbie.com
+twitter.com/hobbiejacob
