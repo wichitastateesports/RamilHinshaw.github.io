@@ -23,7 +23,7 @@ Its not mobile friendly at the very moment but hey, who uses phones anyways :)
 
 _(*recommended resolution of 1080p)_
 
-Here's an example of the website for you:    [Jacob Hobbie's Website](http://ramilhinshaw.com/temp/Jacobs%20Website%20V2/index.html) 
+You WIP Website:  [Jacob Hobbie's Website](http://ramilhinshaw.com/temp/Jacobs%20Website%20V2/index.html) 
 
 Source: [GitHub](https://github.com/RamilHinshaw/RamilHinshaw.github.io/tree/master/temp/Jacobs%20Website%20V2)
 
