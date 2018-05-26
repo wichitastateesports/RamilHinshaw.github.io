@@ -19,7 +19,7 @@ Happy Birthday Jacob! I hope you didn't think I would miss something as importan
 
 You see, this idiot friend of yours decided not to was too lazy to create a birthday card (like any sane person would) so instead I decided to finally created that website I promised you. And lets just say a week was not enough for my terrible html skills haha but was well worth it. Now I have something worth showing :D
 
-Its not mobile friendly at the very moment but hey, who uses phones anyways :)
+Its not mobile friendly at the moment but hey, who uses phones anyways :)
 
 _(*recommended resolution of 1080p)_
 
