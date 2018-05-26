@@ -43,6 +43,13 @@ Welp thats all I can say but good luck with your life's endeavors and may we con
 
 
 And again Happy 22nd Birthday and Congratulations on your Graduation!
+==============================================
+
 And seriously thx for being my friend
+----------------------------------
+
+<div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
+<div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
+
 ![Ice Bucket Jacob](https://raw.githubusercontent.com/RamilHinshaw/RamilHinshaw.github.io/master/temp/Ice%20Bucket.PNG)
 
