@@ -31,12 +31,18 @@ Once I finish the media query apocalypse I will give the jekyll source. I tried 
 
 And whenever we meet an real life I'll give you my real present >:)
 
-Welp thats all I can say but good luck with your life's endeavors and may we continue being friends Sir Mr. Level Hyrulian 42 Jacob Hobbie -chan ~desu!
+But enough about me! You're now [insert age here] old wow! And you're a graduate!? *gasp* If you need need an ear to talk to or a shoulder to lean on remember don't forget this other friend of yours ;) I'll always support you from the deep web *cue omnious sound effects* or I can just help you in person haha. 
+
+Welp thats all I can say but good luck with your life's endeavors and may we continue being best friends Sir Mr. Level Hyrulian 42 Jacob Hobbie -chan ~desu!
 
 
 
 <div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
 <div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
+<div class="content-spacing"></div><div class="content-spacing"></div><div class="content-spacing"></div>
 
+
+And again Happy 22nd Birthday and Congratulations on your Graduation!
+And seriously thx for being my friend
 ![Ice Bucket Jacob](https://raw.githubusercontent.com/RamilHinshaw/RamilHinshaw.github.io/master/temp/Ice%20Bucket.PNG)
 
