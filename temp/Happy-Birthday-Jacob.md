@@ -15,7 +15,7 @@ Happy Birthday Jacob!
 <div class="content-spacing"></div>
 
 
-Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday. Because that is far from the truth.
+Happy Birthday Jacob! I hope you didn't think I would miss something as important as your birthday. Because that is far from the truth. I don't need a facebook to tell me its your birthday (so hopefully its your birthday today or this will be very awkward)
 
 You see, this idiot friend of yours decided not to was too lazy to create a birthday card (like any sane person would) so instead I decided to finally created that website I promised you. And lets just say a week was not enough for my terrible html skills haha but was well worth it. Now I have something worth showing :D
 
@@ -51,4 +51,3 @@ And seriously thx for being my friend!
 
 
 ![Ice Bucket Jacob](https://raw.githubusercontent.com/RamilHinshaw/RamilHinshaw.github.io/master/temp/Ice%20Bucket.PNG)
-
