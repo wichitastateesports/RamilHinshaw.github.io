@@ -1,5 +1,7 @@
 ---
 published: true
+layout: default
+title: Testing this Blog derp
 ---
 ## A New Post
 
