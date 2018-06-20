@@ -168,6 +168,7 @@ h3{
 
 .orange-diamond:hover {
   /*background-color: #e27828;*/
+  cursor: default;
 }
 
 h5 {
