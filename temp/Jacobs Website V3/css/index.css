@@ -171,18 +171,33 @@ p{
     height: 100%;
 }
 
+.project-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+
+.project-tag{
+    color: #5af78e;
+    font-family: "Quicksand";
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
 .text{
 
-    font-size: 18px;
+    font-size: 16px;
+    f
     text-align: left;
     line-height: 1.36em;
-    letter-spacing: -0.2px;
+    /* letter-spacing: -0.2px; */
     margin: auto 90px;
     width: 324px;
     /* background: blue; */
-    font-weight: lighter;
+    font-weight: 100;
     /* margin: 0px 5%; */
-    font-family: "Ubuntu";
+    font-family: "Ubuntu light";
 }
 
 .about-me{
