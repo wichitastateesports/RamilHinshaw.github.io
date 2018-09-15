@@ -1,292 +1,285 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css" media="all">
-    <link rel="stylesheet" href="css/styles.css" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Ubuntu" rel="stylesheet">
-    <!-- <script src="https://cldup.com/S6Ptkwu_qA.js"></script> -->
-    <!-- <script src="/particles/particles.js"></script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+@font-face {
+    font-family: Menlo;
+    src: url(/fonts/Menlo-Regular.ttf);
+}
 
-    <title>Jacob Hobbie's Website</title>
-</head>
+#particles-js {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    /* height: 100%; */
+    /* background: #00356B  */
+    z-index: -1;
+}
 
 
-<script>
-//SMOOTH SCROLLING
-    $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-        // Store hash
-        var hash = this.hash;
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function(){
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-        });
-        } // End if
-    });
-    });
-</script>
-
-
-
-
-<body>
-    <div id="particles-js"></div>
-<!-- <div class="container-gap">  -->
-<div class="flex-col-center">
-<!-- <div class="container-gap"> -->
+html{
+    background-color: #282a36; 
+    color: #f1f1f0;
+    font-family: Menlo, Arial, Helvetica, sans-serif;
+    width: 100%;
     
+}
 
+body{
+    margin-bottom: 3.5%;
+}
 
+.navbar{
+    height: 76px;
+    width: 100%;
+    background: #23242f;
+    z-index: 1;
+}
 
+.nav-link{
+	text-decoration: none;
+    color: #f1f1f0;
+    font-size: 22px;
+    margin: 5px 40px;
+    font: arial;
+}
 
+.nav-link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    margin: 0px 4px;
+    /* width: 150px; */
+}
 
-    <!-- NAVBAR -->
-    <a name="Home"></a>
-    <div class="navbar flex-center ">
+.nav-link:hover{
+    color: white;
+    font-weight: bold;
+}
 
-        <div class="flex-">
+.nav-linebreak{
+    width: 100%;
+    height: 2px;
+    background: #3f4250;
+    font-family: "Quicksand";
+}
 
-            <!-- <div class="mini-portrait">
-                <img class="mini-portrait" src="img/portrait.png" alt="Logo for sleepless nights">
-            </div> -->
+.mini-portrait{
+    max-width:100%;
+    max-height:auto;
+}
+
+.portrait{
+    margin-top: 162px;
+}
+
+.name{
+    margin-top: 51px;
+    font-family: Menlo;
+    color: #f1f1f0;
+    font-size: 60px;
+    letter-spacing: 2.5px;
+}
+
+.dash
+{
+    width: 68px;
+    height: 6px;
+    background: white;
+    margin: 13px 5px;
+}
+
+h1{
+    color: #ff595c;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Ubuntu", Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* font-family: 'Montserrat', sans-serif; */
     
-
-        </div>
-
-        <div class="flex-row flex-vert-end">
-
-            <div class="nav-link-container">
-                 <a href="#Home" class="nav-link">Home</a>
-            </div>
-
-            <div class="nav-link-container">
-                <a href="#Projects" class="nav-link">Projects</a>   
-            </div>
-            
-            <div class="nav-link-container">
-                 <a href="Resume.pdf" class="nav-link">Resume</a> 
-            </div>
-
-            <div class="nav-link-container">        
-                <a href="blog" class="nav-link">Blog</a>
-            </div>
+}
 
 
-        </div>
+.social-link{
+	text-decoration: none;
+    color: #f1f1f0;
+    font-size: 22px;
+    margin: 5px 15px;
+}
 
 
+.header{
+    margin-bottom: 5px;
+    font-family: Menlo;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+   /* text-shadow: rgb(253, 227, 195) 20px 0px 0px, rgb(253, 227, 195) 19.975px 0.999583px 0px, rgb(253, 227, 195) 19.9001px 1.99667px 0px, rgb(253, 227, 195) 19.7754px 2.98876px 0px, rgb(253, 227, 195) 19.6013px 3.97339px 0px, rgb(253, 227, 195) 19.3782px 4.94808px 0px, rgb(253, 227, 195) 19.1067px 5.9104px 0px, rgb(253, 227, 195) 18.7875px 6.85796px 0px, rgb(253, 227, 195) 18.4212px 7.78837px 0px, rgb(253, 227, 195) 18.0089px 8.69931px 0px, rgb(253, 227, 195) 17.5517px 9.58851px 0px, rgb(253, 227, 195) 17.0505px 10.4537px 0px, rgb(253, 227, 195) 16.5067px 11.2928px 0px, rgb(253, 227, 195) 15.9217px 12.1037px 0px, rgb(253, 227, 195) 15.2968px 12.8844px 0px, rgb(253, 227, 195) 14.6338px 13.6328px 0px, rgb(253, 227, 195) 13.9341px 14.3471px 0px, rgb(253, 227, 195) 13.1997px 15.0256px 0px, rgb(253, 227, 195) 12.4322px 15.6665px 0px, rgb(253, 227, 195) 11.6337px 16.2683px 0px, rgb(253, 227, 195) 10.806px 16.8294px 0px, rgb(253, 227, 195) 9.95142px 17.3485px 0px, rgb(253, 227, 195) 9.07192px 17.8241px 0px, rgb(253, 227, 195) 8.16975px 18.2553px 0px, rgb(253, 227, 195) 7.24716px 18.6408px 0px, rgb(253, 227, 195) 6.30645px 18.9797px 0px, rgb(253, 227, 195) 5.34998px 19.2712px 0px, rgb(253, 227, 195) 4.38013px 19.5145px 0px, rgb(253, 227, 195) 3.39934px 19.709px 0px, rgb(253, 227, 195) 2.41006px 19.8543px 0px, rgb(253, 227, 195) 1.41474px 19.9499px 0px, rgb(253, 227, 195) 0.415897px 19.9957px 0px, rgb(253, 227, 195) -0.58399px 19.9915px 0px, rgb(253, 227, 195) -1.58242px 19.9373px 0px, rgb(253, 227, 195) -2.57689px 19.8333px 0px, rgb(253, 227, 195) -3.56492px 19.6797px 0px, rgb(253, 227, 195) -4.54404px 19.477px 0px, rgb(253, 227, 195) -5.51181px 19.2255px 0px, rgb(253, 227, 195) -6.46579px 18.926px 0px, rgb(253, 227, 195) -7.40362px 18.5792px 0px, rgb(253, 227, 195) -8.32294px 18.1859px 0px, rgb(253, 227, 195) -9.22145px 17.7472px 0px, rgb(253, 227, 195) -10.0969px 17.2642px 0px, rgb(253, 227, 195) -10.9472px 16.738px 0px, rgb(253, 227, 195) -11.77px 16.1699px 0px, rgb(253, 227, 195) -12.5635px 15.5615px 0px, rgb(253, 227, 195) -13.3255px 14.9141px 0px, rgb(253, 227, 195) -14.0543px 14.2295px 0px, rgb(253, 227, 195) -14.7479px 13.5093px 0px, rgb(253, 227, 195) -15.4046px 12.7553px 0px, rgb(253, 227, 195) -16.0229px 11.9694px 0px, rgb(253, 227, 195) -16.6011px 11.1537px 0px, rgb(253, 227, 195) -17.1378px 10.31px 0px, rgb(253, 227, 195) -17.6316px 9.44061px 0px, rgb(253, 227, 195) -18.0814px 8.5476px 0px, rgb(253, 227, 195) -18.486px 7.63322px 0px, rgb(253, 227, 195) -18.8444px 6.69976px 0px, rgb(253, 227, 195) -19.1557px 5.74956px 0px, rgb(253, 227, 195) -19.4192px 4.78499px 0px, rgb(253, 227, 195) -19.634px 3.80845px 0px, rgb(253, 227, 195) -19.7999px 2.8224px 0px, rgb(253, 227, 195) -19.9162px 1.82929px 0px, rgb(253, 227, 195) -19.9827px 0.831613px 0px, rgb(253, 227, 195) -19.9993px -0.168145px 0px, rgb(253, 227, 195) -19.9659px -1.16748px 0px, rgb(253, 227, 195) -19.8826px -2.1639px 0px, rgb(253, 227, 195) -19.7496px -3.15491px 0px, rgb(253, 227, 195) -19.5672px -4.13804px 0px, rgb(253, 227, 195) -19.336px -5.11082px 0px, rgb(253, 227, 195) -19.0564px -6.07083px 0px, rgb(253, 227, 195) -18.7291px -7.01566px 0px, rgb(253, 227, 195) -18.3551px -7.94296px 0px, rgb(253, 227, 195) -17.9352px -8.85041px 0px, rgb(253, 227, 195) -17.4704px -9.73573px 0px, rgb(253, 227, 195) -16.962px -10.5967px 0px, rgb(253, 227, 195) -16.4112px -11.4312px 0px, rgb(253, 227, 195) -15.8194px -12.2372px 0px, rgb(253, 227, 195) -15.188px -13.0125px 0px, rgb(253, 227, 195) -14.5186px -13.7553px 0px, rgb(253, 227, 195) -13.813px -14.4638px 0px, rgb(253, 227, 195) -13.0729px -15.1361px 0px, rgb(253, 227, 195) -12.3px -15.7705px 0px, rgb(253, 227, 195) -11.4965px -16.3655px 0px, rgb(253, 227, 195) -10.6642px -16.9197px 0px, rgb(253, 227, 195) -9.80522px -17.4315px 0px, rgb(253, 227, 195) -8.92175px -17.8998px 0px, rgb(253, 227, 195) -8.01598px -18.3233px 0px, rgb(253, 227, 195) -7.09018px -18.7011px 0px, rgb(253, 227, 195) -6.14666px -19.032px 0px, rgb(253, 227, 195) -5.18777px -19.3155px 0px, rgb(253, 227, 195) -4.21592px -19.5506px 0px, rgb(253, 227, 195) -3.23352px -19.7369px 0px, rgb(253, 227, 195) -2.24305px -19.8738px 0px, rgb(253, 227, 195) -1.24697px -19.9611px 0px, rgb(253, 227, 195) -0.247773px -19.9985px 0px, rgb(253, 227, 195) 0.752043px -19.9859px 0px, rgb(253, 227, 195) 1.74998px -19.9233px 0px, rgb(253, 227, 195) 2.74354px -19.8109px 0px, rgb(253, 227, 195) 3.73025px -19.6491px 0px, rgb(253, 227, 195) 4.70763px -19.4381px 0px, rgb(253, 227, 195) 5.67324px -19.1785px 0px, rgb(253, 227, 195) 6.62468px -18.871px 0px, rgb(253, 227, 195) 7.55956px -18.5163px 0px, rgb(253, 227, 195) 8.47554px -18.1153px 0px, rgb(253, 227, 195) 9.37033px -17.6691px 0px, rgb(253, 227, 195) 10.2417px -17.1787px 0px, rgb(253, 227, 195) 11.0875px -16.6453px 0px, rgb(253, 227, 195) 11.9056px -16.0704px 0px, rgb(253, 227, 195) 12.6939px -15.4553px 0px, rgb(253, 227, 195) 13.4504px -14.8015px 0px, rgb(253, 227, 195) 14.1734px -14.1108px 0px, rgb(253, 227, 195) 14.8609px -13.3848px 0px, rgb(253, 227, 195) 15.5113px -12.6253px 0px, rgb(253, 227, 195) 16.1229px -11.8343px 0px, rgb(253, 227, 195) 16.6943px -11.0137px 0px, rgb(253, 227, 195) 17.2238px -10.1656px 0px, rgb(253, 227, 195) 17.7104px -9.29204px 0px, rgb(253, 227, 195) 18.1527px -8.39528px 0px, rgb(253, 227, 195) 18.5496px -7.47753px 0px, rgb(253, 227, 195) 18.9001px -6.5411px 0px, rgb(253, 227, 195) 19.2034px -5.58831px 0px, rgb(253, 227, 195) 19.4587px -4.62156px 0px, rgb(253, 227, 195) 19.6654px -3.64325px 0px, rgb(253, 227, 195) 19.8229px -2.65584px 0px, rgb(253, 227, 195) 19.9308px -1.66179px 0px, rgb(253, 227, 195) 19.989px -0.663584px 0px; */
+}
 
-    </div>
+.header-underline{
+    width: 164px;
+    height: 6px;
+    background: white;
+}
+
+/* For photo, put under img */
 
 
+.photo-container{
 
-    <div class="nav-linebreak"></div>
+    /* border: #f1f1f0 solid 13px; */
+    padding: 0;
+    margin: 24px;
+
+}
 
 
-    <!-- HEADER -->
+.box-shadow{
+    /* BOX SHADOW */
+    -webkit-box-shadow: 6px 10px 23px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 6px 10px 23px 3px rgba(0,0,0,0.41);
+    box-shadow: 6px 10px 23px 3px rgba(0,0,0,0.41);
+}
 
-    <div class="front flex-center">
+.quoteMark{
+    font-size: 120px;
+    color: #ff595c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin: 25px; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: -75px;
+}
 
-        <div class="flex-col-center">
-            
-            <div class="portrait">   
-                <img src="img/portrait.png" alt="Logo for sleepless nights">
-            </div>
+.quoteMark-sm{
+    font-size: 80px;
+    color: #ff595c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: -40px;
+}
 
-            <div class="name">Jacob Hobbie</div>
+.front{
+    width: 100%;
+    height: 100%;
+}
 
-            <div class="flex-row-center">
-                <div style="background: #ff5c57" class="dash"></div>
-                <div style="background: #5af78e" class="dash"></div>
-                <div style="background: #f3f99d" class="dash"></div>
-                <div style="background: #57c7ff" class="dash"></div>
-                <div style="background: #ff6ac1" class="dash"></div>
-                <div style="background: #9aedfe" class="dash"></div>
-                <div style="background: #f1f1f0" class="dash"></div>      
-            </div>
+.project-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 23px;
+}
 
-            <div class="flex-row-center">
-                
-                <a href="" class="social-link">Github</a>
-                <a href="" class="social-link">Twitter</a>
-                <a href="" class="social-link">LinkedIn</a>
-                <a href="" class="social-link">RSS</a>
+.project-tag{
+    color: #5af78e;
+    font-family: "Quicksand";
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
 
-            </div>
+.text{
 
-        </div>
-    </div>
+    font-size: 16px;
+    f
+    text-align: left;
+    line-height: 1.36em;
+    /* letter-spacing: -0.2px; */
+    margin: auto 90px;
+    width: 324px;
+    /* background: blue; */
+    font-weight: 100;
+    /* margin: 0px 5%; */
+    font-family: "Ubuntu light";
+}
 
+.about-me{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.project-container{
+    /* margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 15px; */
+
+    margin: 1.3% 16%;
+}
+
+img{
+    margin: 0px;
+}
+
+.btn{
+    color: #f7f7f7;
+    background-color: #ff5c57;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin: 19px;
+    margin-top: 35px;
+}
+
+.btn-lrg{
+    color: #f7f7f7;
+    background-color: #ff5c57;
+    padding: 18px 36px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    margin: 29px;
+    margin-top: 35px;
+}
+
+
+button:hover{
+    color: #e6e3e3;
+    background-color: #d33a38;
+}
+
+.dash-pagebreak{
+    color: #ff5c57;
+    font-size: 90px;
+    /* margin: 50px 0px; */
+    margin-top: 60px;
+    /* margin-bottom: -70px; */
+    letter-spacing: 8px;
+}
+
+.address{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f0;
+    margin-top: 54px;
+    margin-bottom: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    /* letter-spacing: 2px; */
     
-    <!-- ABOUT ME -->
-    <!-- <h1 class="header">About Me</h1>
+}
 
-    <div class="flex-row about-me">
-        <div class="quoteMark">&#10077</div>
-        <p class="text">I like to develop software, create interesting graphics, and come up with innovative ideas for businesses.
-        I love to sing, dance, and talk to as many people as possible. The world is full of interesting stories, and I'm here to absorb as many as I can. </p>
-        <div class="quoteMark">&#10078</div>
-    </div>
-    
-    <button class="btn">My Blog</button> -->
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f0;
+    /* margin-top: 7px; */
+    /* margin-bottom: 7px; */
+    /* letter-spacing: 1.3px; */
+    font-weight: 400;
+    font-size: 32px;
+}
 
-
-    <!-- PROJECTS -->
-
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-
-
-
-    <a name="Projects"></a>
-    <div class="header">Projects</div>
-    <div style="background: #ff6ac1" class="header-underline"></div>
-
-    <div class="content-spacing"></div>
-    <div class="content-spacing"></div>
-    
-        <!-- SLEEPLESS NIGHTS -->
-        <div class="flex-row project-container">
-
-            <div class="photo-container">
-                <img src="img/sleepless-nights.png" alt="Logo for sleepless nights">
-    
-            </div>                           
-
-            <div class="container flex-center">              
-                <div class"flex-col flex-middle">
-
-                    <div class="flex-row">
-                        <!-- <div class="quoteMark-sm">&#10077</div> -->
-                        <div class="text">A fun podcast during my time in college for other college student listeners. We take in various college student guests around college
-                             and interview their life in the college dorm along with any fun expereince they wish to share.
-                            </div>
-                        <!-- <div class="quoteMark-sm">&#10078</div> -->
-                    </div>
-    
-
-                        <div class="container flex-row-center">
-                            <button class="btn">Read More</button>
-                            <button onclick="window.location.href='https://sleepless-nights.pinecast.co/'" class="btn">Website</button>   
-                        </div>    
-                </div>
-            </div>              
-        </div>
-
-        <!-- SHUFFLE CASTS -->
-        <div class="flex-row project-container">
-         
-
-            <div class="container flex-center">              
-                <div class"flex-col flex-middle">
-
-
-                    <div class="flex-row-center">
-
-                            <!-- <div class="quoteMark-sm">&#10077</div> -->
-                            <div class="text">A new way to browse and listen to your podcasts with Shuffle Casts.
-                                 Can easily find things by category, rating, author, etc. Shuffle Casts is also made to tailor to your taste by
-                                  reccomending relavent podcasts.
-                               </div>
-                            <!-- <div class="quoteMark-sm">&#10078</div> -->
-                        </div>
-
-
-                        <div class="container flex-row-center">
-                            <button class="btn">Read More</button>
-                            <!-- <button class="btn">Demo</button>    -->
-                        </div>    
-                </div>
-            </div>    
-            
-            <div class="photo-container">
-                    <img src="img/shuffle-casts.png" alt="Logo for sleepless nights">
-
-            </div>          
-       </div>
-
-        <!-- Password Generator -->
-        <div class="flex-row project-container">
-            <div class="photo-container">
-                    <img src="img/password-generator.png" alt="Logo for sleepless nights">
-
-            </div>          
-
-            <div class="container flex-center">              
-                <div class"flex-col flex-middle">
-
-                    <div class="flex-row">
-                            <!-- <div class="quoteMark-sm">&#10077</div> -->
-                            <div class="text">A very simple yet initiative program less than 100 kilobytes of code! 
-                                The program boasts two different algorithms used to help generate your randomized password by the user specified length.
-                                 Great for those who use password managers!
-                               </div>
-                            <!-- <div class="quoteMark-sm">&#10078</div> -->
-                        </div>
-                    
-                        <div class="container flex-row-center">
-                            <button onclick="window.location.href='https://github.com/HobbieJ/PasswordGenerator/blob/master/README.md'"" class="btn">Read More</button>
-                            <button onclick="window.location.href='https://github.com/HobbieJ/PasswordGenerator'" class="btn">Github</button>   
-                        </div>    
-                </div>
-            </div>              
-        </div>
-    
-        <button class="btn-lrg">See More</button>   
-
-        <!-- CONTACT -->
-        <div class="dash-pagebreak">-------------</div>
-
-
-        <div class="content-spacing"></div>
-
-
-        <div class="header">Contact</div>
-        <div style="background: #f3f99d" class="header-underline"></div>
-
-        <div class="address">Wichita, <span style="color:#57c7ff">KS</span></div>
-        <div class="contact">contact<span style="color:#57c7ff">@</span>JacobHobbie<span style="color:#57c7ff">.com</span></div>
-        <div class="contact">twitter<span style="color:#57c7ff">.com</span>/hobbiejacob</div>
-
-
-
-
-
- </div>
-
-
- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-    });
-
-</script>
-
-
-
-
-</body>
-
-
-</html>
+.square{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    margin: 15px;
+}
